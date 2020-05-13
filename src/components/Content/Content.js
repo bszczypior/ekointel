@@ -25,7 +25,7 @@ const Content = () => {
           </p>
         </div>
 
-        {/* <div className={style.contentPhoto}></div> */}
+        
       </Fade>
     </div>
   );

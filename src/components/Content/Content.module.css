@@ -33,18 +33,7 @@
   font-size: 1.7em;
   color: rgb(42, 221, 57);
 }
-.contentPhoto {
-  display: none;
-  width: 50vw;
-  height: 75vh;
-  border-radius: 30px;
 
-  background-image: url("./home4.jpg");
-
-  background-size: cover;
-  background-position: center;
-  filter: sepia(0.5);
-}
 
 @media only screen and (max-width: 768px) {
   .contentWrapper {
@@ -84,14 +73,5 @@
     color: rgb(42, 221, 57);
     text-align: center;
   }
-  .contentPhoto {
-    display: none;
-    width: 100vw;
-    height: 50vh;
 
-    background-image: url("./home2.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-top: 2vh;
-  }
 }
