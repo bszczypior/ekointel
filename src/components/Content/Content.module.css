@@ -61,7 +61,7 @@
   }
   .contentText p {
     font-size: 1.2em;
-    line-height: 1.1em;
+    line-height: 1.5em;
     margin-bottom: 2vh;
     text-align: left;
     padding-left: 3vw;
@@ -69,7 +69,7 @@
    
   }
   .contentText span {
-    font-size: 1.1em;
+    font-size: 1.5em;
     color: rgb(42, 221, 57);
     text-align: center;
   }
