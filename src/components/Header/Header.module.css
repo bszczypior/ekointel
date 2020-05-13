@@ -1,0 +1,54 @@
+.headerWrapper{
+    
+    width: 100vw;
+    height: 10vh;
+    padding-top: 2vh;
+    padding-right: 10vw;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    position: fixed;
+ display: flex;
+ justify-content: flex-end;
+ z-index: 1;
+  
+
+}
+.headerWrapper ul{
+  display: flex;
+  flex-direction: row;
+}
+.headerWrapper ul li{
+  list-style: none;
+  margin-right: 3vw;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: rgb(59, 255, 59);
+  width: 7vw;
+  text-align: center;
+}
+.headerWrapper ul li:hover{
+border-bottom: solid 3px green;
+ font-size: 1.3em;
+ transition: 0.1s ease-in-out;
+}
+.logo{
+    
+   margin-left: 5vw;
+    max-width:20vw;
+    height: 25vh;
+    background-image: url('./logo3.png');
+    background-position: center;
+    background-size: cover;
+    border: black solid 1px;
+    position:relative;
+    z-index: 1;
+   
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .headerWrapper ul{
+      display: none;
+     
+    }
+  }

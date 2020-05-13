@@ -1,0 +1,54 @@
+@keyframes animelogo{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.welcomeWrapper{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+
+}
+.welcomeBackground{
+    width:100vw;
+    height: 65vh;
+  background-image: url('./logo3.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: animelogo;
+  animation-duration: 4s;
+
+  
+}
+
+ @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .welcomeBackground{
+    max-width:100vw;
+    height: 50vh;
+    padding: 1vh 15vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcomeWrapper{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+
+}
+ 
+} 
