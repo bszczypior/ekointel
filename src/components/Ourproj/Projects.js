@@ -46,12 +46,12 @@ const Projects = () => {
       : setProjNum(proj.length - 1);
   };
 
-  useEffect(()=>{
-    projNum===proj.length-1 && setVisibleNext(false)
-    projNum<proj.length-1 && setVisibleNext(true)
-    projNum===0 && setVisiblePrev(false)
-    projNum>0 && setVisiblePrev(true)
-  })
+  useEffect(() => {
+    projNum === proj.length - 1 && setVisibleNext(false);
+    projNum < proj.length - 1 && setVisibleNext(true);
+    projNum === 0 && setVisiblePrev(false);
+    projNum > 0 && setVisiblePrev(true);
+  });
 
   return (
     <div className={style.projectsWrapper}>

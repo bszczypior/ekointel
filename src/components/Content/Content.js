@@ -24,8 +24,6 @@ const Content = () => {
             urządzeń.{" "}
           </p>
         </div>
-
-        
       </Fade>
     </div>
   );
