@@ -59,7 +59,7 @@ const Projects = () => {
   return (
     <div className={style.projectsWrapper}>
       <Fade>
-        <h1>Nasze realizacje</h1>
+        
         <div className={style.showProject}>
           <div className={style.projectsContent}>           
             <h1>{proj[projNum].title}</h1>

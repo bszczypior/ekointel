@@ -7,6 +7,7 @@ import Best from './components/Best/Best'
 import Content from './components/Content/Content'
 import Projects from './components/Ourproj/Projects'
 import Contact from './components/Contact/Contact'
+import Road from './components/Road/Road'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
          <Content/>
          <Best/>
          <About/>
+         <Road/>
          <Projects/>
          <Contact/>
         
