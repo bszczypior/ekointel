@@ -48,14 +48,19 @@
   font-size: 3em;
 }
 .aboutContent {
-  padding: 1.5em;
+  padding: 2em;
   width: 40vw;
   min-height: 50vh;
-
+  
   background-color: rgb(36, 36, 36);
   color: white;
   border-radius: 20px;
-  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  line-height: 1.4em;
+ 
 }
 
 @media only screen and (max-width: 768px) {
@@ -117,5 +122,6 @@
   .aboutIcon svg {
     color: rgb(255, 255, 255);
     font-size: 3em;
+    
   }
 }
