@@ -18,7 +18,7 @@ const App = () => {
          <Content/>
          <Best/>
          <About/>
-         <Road/>
+        
          <Projects/>
          <Contact/>
         
