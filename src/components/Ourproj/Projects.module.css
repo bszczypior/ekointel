@@ -83,3 +83,28 @@ margin-top: 5vh;
     font-size: 1.5em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 868px){
+  .projectsWrapper {
+    max-width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .showProject {
+    min-width: 85vw;
+    height: 60vh;
+    /* background-color: rgb(224, 224, 224);
+    box-shadow: 5px 12px 18px -6px rgb(58, 58, 58); */
+    /* border-radius: 30px; */
+  }
+  .showProject svg {
+    font-size: 2em;
+   
+  }
+  .projectsWrapper h1{
+    font-size: 1.5em;
+  }
+}
