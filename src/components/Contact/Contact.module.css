@@ -12,6 +12,7 @@
   font-size: 4em;
   margin-top: 5vh;
   margin-bottom: 8vh;
+  text-transform: uppercase;
 }
 .contactContent {
   width: 80vw;
@@ -93,6 +94,7 @@
     background-color: rgb(20, 20, 20);
     text-align: center;
     color: rgb(42, 221, 57);
+    
   }
   .contactWrapper h1 {
     font-size: 1.9em;

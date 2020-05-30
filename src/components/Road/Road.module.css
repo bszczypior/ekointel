@@ -1,151 +1,137 @@
 .roadWrapper {
   max-width: 100vw;
+  
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 5vh 20vw;
-}
-.roadSecA {
-   
-  border-bottom: dotted 2px green;
-  max-width: 100vw;
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-}
-.roadItemA {
-  width: 25vw;
-  height: 50vh;
-  background-color: rgb(114, 243, 157);
-  border-left: dotted 2px green;
-  border-right:dotted 2px green;
-  border-bottom: dotted 2px green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 5vh 1vw;
- color: rgb(36, 36, 36);
-}
-.roadSecB {
-  background-color: white;
-  max-width: 100vw;
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: stretch;
-  align-content: stretch;
-  border-bottom: dotted 2px green;
  
 }
-.roadItemB {
-  width: 25vw;
-  height: 50vh;
-  background-color: rgb(114, 243, 157);
-  border-left: dotted 2px green;
-  border-right:dotted 2px green;
-  border-bottom: dotted 2px green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.roadTitle{
+  max-width:100vw;
+  height: 20vh;
   text-align: center;
-  padding: 5vh 1vw;
- color: rgb(36, 36, 36);
- 
-  
-   
-}
-.roadHeader{
-    max-width: 100%;
-    height: 20vh;
-    text-align: center;
-}
-.roadHeader h1{
-    font-size: 4em;
-    margin-top: 2vh;
-    margin-bottom: 8vh;
-}
 
+}
+.roadTitle h1{
+  font-size: 5em;
+  margin-top: 8vh;
+  color: rgb(42, 221, 57);
+
+  text-transform: uppercase;
+  
+}
+.roadCard{
+  background: rgb(226, 226, 226);
+  border-radius: 2px;
+  height: 80vh;
+  margin: 8rem;
+  width: 50vw;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5vh 5vw
+}
+.roadCard svg{
+  font-size: 10em;
+  color: rgb(42, 221, 57);
+}
 @media only screen and (max-width: 768px) {
     .roadWrapper {
         max-width: 100vw;
         display: flex;
         flex-direction: column;
+       align-items: center;
        padding: 2vh 2vw;
       }
-      .roadSecA {
+
+      .roadTitle{
+        max-width:100vw;
+        height: 20vh;
+        text-align: center;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+      }
+      .roadTitle h1{
+        font-size: 2.1em;
+       
+        margin-bottom: 2vh;
+        text-transform: uppercase;
+      }
+      .roadCard{
+        background: rgb(240, 240, 240);
+        border-radius: 2px;
+        height: 70vh;
+        margin: 5rem;
+        width: 90vw;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5vh 5vw;
+      }
+      .roadCard h1{
+        font-size: 1.7em;
+        
+      }
+      .roadCard svg{
+        font-size: 10em;
+        color: rgb(135, 214, 142);
+      }
+
+     
+}
+
+@media only screen and (min-width: 768px) and (max-width: 868px){
+  .roadWrapper {
+    max-width: 100vw;
     
-        border-bottom: dotted 2px green;
-        max-width: 100vw;
-        height: 40vh;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: stretch;
-        align-content: stretch;
-      }
-      .roadItemA {
-          
-        width: 45vw;
-        height: 40vh;
-        background-color: rgb(114, 243, 157);
-        border-left: dotted 2px green;
-        border-right:dotted 2px green;
-        border-bottom: dotted 2px green;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 5vh 1vw;
-       color: rgb(36, 36, 36);
-      }
-      .roadSecB {
-        background-color: white;
-        max-width: 100vw;
-        height: 40vh;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: stretch;
-        align-content: stretch;
-        border-bottom: dotted 2px green;
-        
-       
-      }
-      .roadItemB {
-        
-        width: 45vw;
-        height: 40vh;
-        background-color: rgb(114, 243, 157);
-        border-left: dotted 2px green;
-        border-right:dotted 2px green;
-        border-bottom: dotted 2px green;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 5vh 1vw;
-       color:rgb(36, 36, 36);
-       
-        
-         
-      }
-      .roadHeader{
-          max-width: 100vw;
-          height: 20vh;
-          text-align: center;
-          
-      }
-      .roadHeader h1{
-          font-size: 2.2em;
-          margin-top: 5vh;
-          margin-bottom: 8vh;
-      }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 20vw;
+   
+  }
+  .roadTitle{
+    max-width:100vw;
+    height: 20vh;
+    text-align: center;
+  
+  }
+  .roadTitle h1{
+    font-size: 2.9em;
+    margin-top: 8vh;
+    color: rgb(42, 221, 57);
+  
+    text-transform: uppercase;
+    
+  }
+  .roadCard{
+    background: rgb(226, 226, 226);
+    border-radius: 2px;
+    height: 90vh;
+    margin: 5rem;
+    width: 80vw;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 5vw
+  }
+  .roadCard svg{
+    font-size: 10em;
+    color: rgb(85, 216, 96);
+    margin: 1rem;
+    
+  }
+  .roadCard h1{
+    font-size: 1.7em;
+   
+    
+  }
+
 }

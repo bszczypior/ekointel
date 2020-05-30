@@ -1,57 +1,37 @@
 import React from "react";
 import style from "./Road.module.css";
 import Fade from "react-reveal";
+import {FaPiggyBank,FaLeaf,FaThermometerHalf } from "react-icons/fa";
 
 const Road = () => {
   return (
     <div className={style.roadWrapper}>
-      <div className={style.roadHeader}>
-        <Fade></Fade>
+      <div className={style.roadTitle}>
+       <Fade><h1>Pozanj korzyści</h1></Fade> 
       </div>
-      <div className={style.roadSecA}>
-        <Fade>
-          <div
-            className={style.roadItemA}
-            style={{ borderTop: "dotted 2px green" }}
-          >
-            <h2> Sontaktuj się z nami i umów dogodny termin spotkania</h2>
-          </div>
-        </Fade>
+      <Fade bottom>
+      <div className={style.roadCard}>
+        <h1>Oszczędzaj</h1>
+        <FaPiggyBank/>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
       </div>
-      <div className={style.roadSecB}>
-        <Fade>
-          <div className={style.roadItemB}>
-            <h2>
-              Na spotkaniu ocenimy zakres prac i doradzimy w zakresie
-              technologii
-            </h2>
-          </div>
-        </Fade>
+      </Fade>
+      
+      <Fade bottom>
+      <div className={style.roadCard}>
+      <h1>Dbaj o środowisko</h1>
+        <FaLeaf/>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
       </div>
-
-      <div className={style.roadSecA}>
-        <Fade>
-          <div className={style.roadItemA}>
-            <h2>Przygotujemy szczegółową wycenę</h2>
-          </div>
-        </Fade>
-      </div>
-      <div className={style.roadSecB}>
-        <Fade>
-          <div className={style.roadItemB}>
-            <h2>Odpowiemy na wszystkie pytania</h2>
-          </div>
-        </Fade>
-      </div>
-      <div className={style.roadSecA} style={{ borderBottom: "none" }}>
-        <Fade>
-          <div className={style.roadItemA}>
-            <h2>
-              Ustalamy terminu montażu i wykonujemy pracę w ustalonym terminie.
-            </h2>
-          </div>
-        </Fade>
-      </div>
+      </Fade>
+       
+       <Fade bottom>
+       <div className={style.roadCard}>
+       <h1>Kontroluj temperaturę</h1>
+        <FaThermometerHalf/>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+       </div>
+       </Fade>
     </div>
   );
 };
