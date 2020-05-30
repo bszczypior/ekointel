@@ -19,7 +19,6 @@ const App = () => {
          <Best/>
          <About/>
         <Road/>
-       
          <Contact/>
         
        
