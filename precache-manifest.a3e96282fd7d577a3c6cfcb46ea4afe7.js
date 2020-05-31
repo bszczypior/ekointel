@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea301397cc26817d69092deef9a30346",
+    "revision": "fdfbf37d838bab7d604fa08c39873e71",
     "url": "/ekointel/index.html"
   },
   {
-    "revision": "3a42af09dda07cc4772b",
-    "url": "/ekointel/static/css/main.4d7c0e1f.chunk.css"
+    "revision": "542491d72eb03fcf51e7",
+    "url": "/ekointel/static/css/main.458754a8.chunk.css"
   },
   {
     "revision": "9b746ed36ab0509a82cd",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ekointel/static/js/2.5ae87b03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a42af09dda07cc4772b",
+    "revision": "542491d72eb03fcf51e7",
     "url": "/ekointel/static/js/main.b3ffad67.chunk.js"
   },
   {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ekointel/static/css/main.4d7c0e1f.chunk.css",
+    "main.css": "/ekointel/static/css/main.458754a8.chunk.css",
     "main.js": "/ekointel/static/js/main.b3ffad67.chunk.js",
     "main.js.map": "/ekointel/static/js/main.b3ffad67.chunk.js.map",
     "runtime-main.js": "/ekointel/static/js/runtime-main.3588553b.js",
@@ -8,9 +8,9 @@
     "static/js/2.5ae87b03.chunk.js": "/ekointel/static/js/2.5ae87b03.chunk.js",
     "static/js/2.5ae87b03.chunk.js.map": "/ekointel/static/js/2.5ae87b03.chunk.js.map",
     "index.html": "/ekointel/index.html",
-    "precache-manifest.08a4f674bf5bc30a0adb7d9b7807783e.js": "/ekointel/precache-manifest.08a4f674bf5bc30a0adb7d9b7807783e.js",
+    "precache-manifest.a3e96282fd7d577a3c6cfcb46ea4afe7.js": "/ekointel/precache-manifest.a3e96282fd7d577a3c6cfcb46ea4afe7.js",
     "service-worker.js": "/ekointel/service-worker.js",
-    "static/css/main.4d7c0e1f.chunk.css.map": "/ekointel/static/css/main.4d7c0e1f.chunk.css.map",
+    "static/css/main.458754a8.chunk.css.map": "/ekointel/static/css/main.458754a8.chunk.css.map",
     "static/js/2.5ae87b03.chunk.js.LICENSE.txt": "/ekointel/static/js/2.5ae87b03.chunk.js.LICENSE.txt",
     "static/media/home2.jpg": "/ekointel/static/media/home2.208ddc18.jpg",
     "static/media/home3.jpg": "/ekointel/static/media/home3.12de0585.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3588553b.js",
     "static/js/2.5ae87b03.chunk.js",
-    "static/css/main.4d7c0e1f.chunk.css",
+    "static/css/main.458754a8.chunk.css",
     "static/js/main.b3ffad67.chunk.js"
   ]
 }
