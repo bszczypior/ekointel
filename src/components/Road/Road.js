@@ -8,7 +8,7 @@ const Road = () => {
     <div className={style.roadWrapper}>
       <div className={style.roadTitle}>
         <Fade>
-          <h1>Pozanj korzyści</h1>
+          <h1>Poznaj korzyści</h1>
         </Fade>
       </div>
       <Fade bottom>

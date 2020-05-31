@@ -6,7 +6,16 @@
   color: rgb(42, 221, 57);
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-direction: column;
+}
+.contactWrapper h3{
+  font-size: 2em;
+  color:white;
+  text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 2vh;
 }
 .contactWrapper h1 {
   font-size: 4em;
@@ -15,13 +24,14 @@
   text-transform: uppercase;
 }
 .contactContent {
-  width: 80vw;
-  height: 70vh;
+  width: 90vw;
+  height: 30vh;
   background-color: rgb(36, 36, 36);
   border-radius: 20px;
   color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 }
 .contactItem {
   display: flex;
@@ -33,7 +43,7 @@
 }
 .contactItem svg {
   font-size: 3em;
-  margin-left: 5vw;
+  margin-left: 1vw;
 }
 .contactItem h3 {
   font-size: 4em;
@@ -50,37 +60,49 @@
     height: 100vh;
     background-color: rgb(20, 20, 20);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     color: rgb(42, 221, 57);
   }
   .contactWrapper h1 {
     font-size: 1.9em;
     margin-bottom: 2vh;
   }
+  .contactWrapper h3{
+    font-size: 1.3em;
+    color:white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 2vh;
+  }
   .contactItem {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding: 1em;
   }
   .contactContent {
-    width: 80vw;
-    height: 80vh;
+    width: 90vw;
+    height: 30vh;
     background-color: rgb(36, 36, 36);
     border-radius: 20px;
-    padding-top: 6vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+   
+   
   }
   .contactItem svg {
-    font-size: 3em;
-    margin-bottom: 5vw;
+    font-size: 2em;
+    margin-bottom: 3vw;
   }
   .contactItem h3 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-top: 2vw;
   }
   .contactItem p {
@@ -94,11 +116,19 @@
     background-color: rgb(20, 20, 20);
     text-align: center;
     color: rgb(42, 221, 57);
-    
+    padding-bottom: 5vh;
   }
   .contactWrapper h1 {
     font-size: 1.9em;
     margin-bottom: 6vh;
+  }
+  .contactWrapper h3{
+    font-size: 1.3em;
+    color:white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 2vh;
   }
   .contactItem {
     display: flex;
@@ -118,10 +148,11 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
   }
   .contactItem svg {
-    font-size: 3em;
-    margin-bottom: 5vw;
+    font-size: 2em;
+    margin-bottom: 3vw;
   }
   .contactItem h3 {
     font-size: 1.3em;

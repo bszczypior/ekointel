@@ -113,6 +113,9 @@ const About = () => {
           </div>
         </div>
       </Fade>
+      <div className={style.aboutButtonPlace}>
+          <button>Zobacz pełną ofertę</button>
+      </div>
     </div>
   );
 };
