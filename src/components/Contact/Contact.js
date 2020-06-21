@@ -27,7 +27,8 @@ const Contact = () => {
         </div>
 
         <div className={style.contactItemfb}>
-          <a href="https://www.facebook.com/EkoIntel-pompy-ciep%C5%82a-rekuperacja-klimatyzacja-i-automatyka-domowa-106213881076077/">
+          <a href="https://www.facebook.com/EkoIntel-pompy-ciep%C5%82a-rekuperacja-klimatyzacja-i-automatyka-domowa-106213881076077/"
+          target="_blank">
           <FaFacebook></FaFacebook>
           <p>@Ekointel</p>
           </a>
