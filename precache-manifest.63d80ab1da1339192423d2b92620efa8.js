@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6941595912aa9145d30d6786c0de4cd9",
+    "revision": "d2dda5015f1d04866fd391f764e0ee1b",
     "url": "/ekointel/index.html"
   },
   {
