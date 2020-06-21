@@ -8,12 +8,13 @@ import Content from './components/Content/Content'
 import Projects from './components/Ourproj/Projects'
 import Contact from './components/Contact/Contact'
 import Road from './components/Road/Road'
+import Work from './components/Work/Work'
 
 
 const App = () => {
     return(
       <div className={style.App}>
-        
+      
          <Welcome/>
          <Content/>
          <Best/>

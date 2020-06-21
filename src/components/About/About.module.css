@@ -83,6 +83,7 @@
   transition: ease-in-out 0.7s;
   text-transform: uppercase;
   outline: none;
+  display: none;
   
 }
 .aboutButtonPlace button:hover{
@@ -172,6 +173,7 @@
     cursor: pointer;
     transition: ease-in-out 0.7s;
     outline: none;
+    display: none;
   }
 
 }
@@ -258,5 +260,6 @@ justify-content: center
     cursor: pointer;
     transition: ease-in-out 0.7s;
     outline: none;
+    display: none;
   }
 }
