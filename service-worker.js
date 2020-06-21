@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ekointel/precache-manifest.8fe63452e519a61604cb4a9a5a03c44a.js"
+  "/ekointel/precache-manifest.a0860674b2d22fd10a699434c43d1deb.js"
 );
 
 self.addEventListener('message', (event) => {
