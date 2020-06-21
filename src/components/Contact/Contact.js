@@ -30,7 +30,7 @@ const Contact = () => {
           <a href="https://www.facebook.com/EkoIntel-pompy-ciep%C5%82a-rekuperacja-klimatyzacja-i-automatyka-domowa-106213881076077/"
           target="_blank">
           <FaFacebook></FaFacebook>
-          <p>@Ekointel</p>
+          <p>Ekointel</p>
           </a>
         </div>
       </div>
