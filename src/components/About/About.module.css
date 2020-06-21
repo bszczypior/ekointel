@@ -113,6 +113,10 @@
     justify-content: center;
     color: rgb(42, 221, 57);
   }
+  .aboutContent p{
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
   .aboutSingle {
     display: flex;
     flex-direction: column;
@@ -220,6 +224,10 @@
     align-items: center;
     text-align: center;
     line-height: 1.5em;
+  }
+  .aboutContent p{
+    font-size: 1.2em;
+    line-height: 1.3em;
   }
   .aboutContent p span {
     display: none;
