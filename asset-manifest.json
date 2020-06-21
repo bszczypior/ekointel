@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ekointel/static/css/main.5bd8672e.chunk.css",
-    "main.js": "/ekointel/static/js/main.069f97af.chunk.js",
-    "main.js.map": "/ekointel/static/js/main.069f97af.chunk.js.map",
+    "main.js": "/ekointel/static/js/main.cfac8872.chunk.js",
+    "main.js.map": "/ekointel/static/js/main.cfac8872.chunk.js.map",
     "runtime-main.js": "/ekointel/static/js/runtime-main.3588553b.js",
     "runtime-main.js.map": "/ekointel/static/js/runtime-main.3588553b.js.map",
     "static/js/2.7d3efc55.chunk.js": "/ekointel/static/js/2.7d3efc55.chunk.js",
     "static/js/2.7d3efc55.chunk.js.map": "/ekointel/static/js/2.7d3efc55.chunk.js.map",
     "index.html": "/ekointel/index.html",
-    "precache-manifest.1594f1245c61e2acbdce441569ca4217.js": "/ekointel/precache-manifest.1594f1245c61e2acbdce441569ca4217.js",
+    "precache-manifest.19b6d71a860f2dfc81ccdae109f704f3.js": "/ekointel/precache-manifest.19b6d71a860f2dfc81ccdae109f704f3.js",
     "service-worker.js": "/ekointel/service-worker.js",
     "static/css/main.5bd8672e.chunk.css.map": "/ekointel/static/css/main.5bd8672e.chunk.css.map",
     "static/js/2.7d3efc55.chunk.js.LICENSE.txt": "/ekointel/static/js/2.7d3efc55.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.3588553b.js",
     "static/js/2.7d3efc55.chunk.js",
     "static/css/main.5bd8672e.chunk.css",
-    "static/js/main.069f97af.chunk.js"
+    "static/js/main.cfac8872.chunk.js"
   ]
 }
