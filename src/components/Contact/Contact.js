@@ -26,13 +26,17 @@ const Contact = () => {
           <p>ekointel@vp.pl</p>
         </div>
 
-        <div className={style.contactItem}>
+        <div className={style.contactItemfb}>
           <a href="https://www.facebook.com/EkoIntel-pompy-ciep%C5%82a-rekuperacja-klimatyzacja-i-automatyka-domowa-106213881076077/">
           <FaFacebook></FaFacebook>
           <p>@Ekointel</p>
           </a>
         </div>
       </div>
+      <div className={style.fb}>
+      <div class="fb-page" data-href="https://www.facebook.com/EkoIntel-pompy-ciep%C5%82a-rekuperacja-klimatyzacja-i-automatyka-domowa-106213881076077/" data-tabs="timeline" data-width="400" data-height="135" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/EkoIntel-pompy-ciep%C5%82a-rekuperacja-klimatyzacja-i-automatyka-domowa-106213881076077/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/EkoIntel-pompy-ciep%C5%82a-rekuperacja-klimatyzacja-i-automatyka-domowa-106213881076077/">EkoIntel - pompy ciepła, rekuperacja, klimatyzacja i automatyka domowa</a></blockquote></div>
+      </div>
+      
     </div>
   );
 };
