@@ -12,7 +12,7 @@ const Best = () => {
             <FaRegEdit></FaRegEdit>
             <h2>Kompleksowe doradztwo</h2>
             <p>
-             Oferujemy profesjonalne doradztwo w zakrsie doboru tecnelogii oraz sprzętu. Do każdego klienta podchodzimy indywidulanie i dopasowujemy rozwiązania pasujące do Twoich potrzeb. 
+             Oferujemy profesjonalne doradztwo w zakresie doboru technologii oraz sprzętu. Do każdego klienta podchodzimy indywidualnie i dopasowujemy rozwiązania pasujące do Twoich potrzeb. 
             </p>
           </li>
         </Fade>
@@ -21,14 +21,14 @@ const Best = () => {
             <FaMoneyBillWaveAlt></FaMoneyBillWaveAlt>
             <h2>Konkurencyjne ceny</h2>
             <p>
-             Oferujemy konkurencyjne ceny. Każdy projekt jest indywidualnie oceniany i konsultowany z klientem tak by wybrać możliwie najlesze rozwiązanie mieszczące sie w Twoim budrzecie.
+             Oferujemy konkurencyjne ceny. Każdy projekt jest indywidualnie oceniany i konsultowany z klientem tak by wybrać możliwie najlepsze rozwiązanie mieszczące się w Twoim budżecie.
             </p>
           </li>
         </Fade>
         <Fade>
           <li className={style.bestListEl}>
             <FaTools />
-            <h2>Fachowy montaż instalacjii</h2>
+            <h2>Fachowy montaż instalacji</h2>
             <p>
             Posiadamy niezbędne certyfikaty i uprawnienia (również UDT, F-gazy). Nieustannie szkolimy się i rozwijamy, w celu zapewnienia najwyższej jakości świadczonych usług.
             </p>

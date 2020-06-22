@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Contact.module.css";
-import { FaFacebook, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaPhoneAlt, FaEnvelope, FaHome } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -13,7 +13,17 @@ const Contact = () => {
         tam wiele informacji na temat naszej oferty i ciekawostki związane ze
         stosowanymi przez nas rozwiązaniami. Zapraszamy !!
       </h3>
-      
+      <div className={style.contactContentB}>
+      <div className={style.contactItemB}>
+      <FaHome/>
+      <h2> Paweł Stępień </h2>
+      <h2>97-410 Kleszczów </h2>
+      <h2>ul. Słonecznikowa 12</h2>
+     
+      </div>
+     
+      </div>
+     
       <div className={style.contactContent}>
           
         <div className={style.contactItem}>
