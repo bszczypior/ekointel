@@ -24,15 +24,21 @@
 }
 .contactContent {
   width: 95vw;
-  height: 30vh;
+  min-height: 40vh;
   background-color: rgb(36, 36, 36);
   border-radius: 20px;
   color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content:space-around;
+  
 
   margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.contactContent h2{
+font-size: 3.5em;
+color: rgb(42, 221, 57); ;
 }
 .contactContentB {
   width: 95vw;
@@ -111,7 +117,7 @@
   color: white;
   transition: 0.5s ease-in-out;
 }
-.contactItem a:hover {
+.contactItemfb a:hover {
   color: rgb(42, 221, 57);
   transition: 0.5s ease-in-out;
 }
@@ -151,6 +157,10 @@
     height: 5vh;
     padding: 1em;
   }
+  .contactContent h2{
+    font-size: 1.5em;
+    color: rgb(42, 221, 57); ;
+    }
   .contactItemB {
     display: flex;
     flex-direction: column;
@@ -161,7 +171,7 @@
     width: 100%;
   }
   .contactContent {
-    width: 90vw;
+    width: 95vw;
     height: 40vh;
     background-color: rgb(36, 36, 36);
     border-radius: 20px;

@@ -34,7 +34,7 @@ const About = () => {
           </div>
           <div className={style.aboutContent}>
             <p>
-            Ogrzewanie podłogowe to świetne rozwiązanie by utzrymać optymalną temperaturę w domu. Dzięki temu rozwiązaniu cipło mamy przy podłodze co pozwala na oszczędności na ogrzewaniu całego pomieszczenia.
+            Ogrzewanie podłogowe to świetne rozwiązanie by utrzymać optymalną temperaturę w domu. Dzięki temu rozwiązaniu ciepło mamy przy podłodze co pozwala na oszczędności na ogrzewaniu całego pomieszczenia.
               <span>
               W przypadku budynków o niewielkim zapotrzebowaniu na energię, jak domy energooszczędne, powietrzna pompa ciepła sprawdzi się jako niskotemperaturowe źródło ciepła współpracujące z ogrzewaniem płaszczyznowym. Ogrzewanie podłogowepowinno być zasilane wodą o temperaturze nie wyższej niż 29°C – podłoga nie jest przegrzewana, a urządzenia takie jak powietrzna pompa ciepła osiągają najwyższą sprawność grzewczą.
               </span>
