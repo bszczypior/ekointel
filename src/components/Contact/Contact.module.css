@@ -258,7 +258,7 @@ color: rgb(42, 221, 57); ;
   }
   .contactItem {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -266,15 +266,19 @@ color: rgb(42, 221, 57); ;
   }
   .contactContent {
     width: 80vw;
-    height: 40vh;
+    min-height: 40vh;
     background-color: rgb(36, 36, 36);
     border-radius: 20px;
     padding-top: 6vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
+  .contactContent h2{
+    font-size: 1.5em;
+    color: rgb(42, 221, 57); ;
+    }
   .contactItem svg {
     font-size: 2em;
     margin-bottom: 3vw;
